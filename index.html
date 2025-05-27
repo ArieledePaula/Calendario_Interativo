@@ -7,7 +7,7 @@
     <title>Calendário Interativo</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    
 </head>
 
 <body>
@@ -75,7 +75,7 @@
         </tr>
 
     </table>
-    <hr />
+    <br>
     <label for="">Escolha uma cor: </label>
     <select id="color">
         <option value="LightBlue">Azul</option>
@@ -84,9 +84,9 @@
         <option value="SlateBlue">Roxo</option>
     </select>
 
-    <label id="day">Escolha o dia: </label>
+    <label>Escolha o dia: </label>
     <input type="number" min="1" max="30" id="day">
-    <input type="submit">
+    <input type="submit" onclick="colorirDia()">
     <script src='main.js'></script>
 </body>
 
